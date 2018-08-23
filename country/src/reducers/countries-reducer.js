@@ -7,7 +7,7 @@ const initialState = {
 
 const countriesReducer = function (state = initialState, action) {
     switch (action.type) {
-        default-case GET_COUNTRIES:
+        case GET_COUNTRIES: // poprawiono
             return Object.assign({}, state, { countries: state.countries })
     }
     return state;
